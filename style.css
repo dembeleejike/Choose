@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: linear-gradient(135deg, #F9FAFB 0%, #E0F2FE 100%);
+    font-family: monospace;
+    
+}
+.overall{
+    display: flex;
+    gap: 0.5rem;
+    margin: 15px;
+    
+}
+button{
+    border: none;
+    border-radius: 5px;
+   background-color: dodgerblue;
+   font-size: 15px;
+}
+.game{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+     gap: 2rem;
+    
+    
+}
+.butt{
+    padding: 15px;
+    background: #6b7280;
+}
+
+a{
+    text-decoration: none;
+}
+.option{
+    background: #2563EB;
+}
+.options{
+   background: #10B981;
+}
+
+.optionss{
+    background: #ef4444;
+}
+.opt{
+    background: #6b7280;
+}
+.butts{
+    padding: 15px;
+    background: #facc15;
+}
+.but{
+    padding: 15px;
+    background: #ec4899;
+}
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
